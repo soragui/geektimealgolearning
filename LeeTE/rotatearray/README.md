@@ -1,6 +1,9 @@
 ## [旋转数组](https://leetcode-cn.com/problems/rotate-array/)
 
 #### 解决方法 1
+
+##### 思路
+
 ```java
 class Solution {
     public void rotate(int[] nums, int k) {
@@ -22,3 +25,11 @@ class Solution {
     }
 }
 ```
+
+#### 解决方法 2
+
+##### 思路
+
+- 首先整体反转
+- 反转前 k 个元素
+- 反转后 n -k 个元素
